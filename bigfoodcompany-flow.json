@@ -1,0 +1,303 @@
+{
+  "current": "intro",
+  "interest": {
+    "question": {
+      "connections": [
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "more_info",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "+ info",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "no_interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "No me interesa",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "goto": "interest_bye",
+          "isString": "",
+          "isDefault": true,
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "greaterThan": "",
+          "inArray": [],
+          "isNotString": "",
+          "lessThan": "",
+          "notInArray": [],
+          "setContext": {},
+          "nlp": {}
+        }
+      ],
+      "index": "interest",
+      "quickReplies": [
+        "Me interesa",
+        "+ info",
+        "No me interesa"
+      ],
+      "text": "Antes que nada dime que te parece la vacante a la que te postulaste:\n\nEl auxiliar de almacén colabora en el almacenaje de productos perecederos, el armado de pedidos, orden y limpieza del almacén, entre otras cosas.\nSe trabaja 6 días por semana, con 1 de descanso, en tres turnos rolados.\nEl puesto cuenta con un atractivo sueldo base y prestaciones superiores a las de la ley."
+    },
+    "x": -66.49951171875,
+    "y": 968.6734008789062
+  },
+  "intro": {
+    "question": {
+      "connections": [
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "quienEsEmi",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "Quién es Emi?",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "Si",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "no_interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "No me interesa",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        }
+      ],
+      "errorMessageNotMatch": "Creo que no te he entendido 🤔... Prueba con las opciones que te doy",
+      "exactMatch": false,
+      "index": "intro",
+      "quickReplies": [
+        "Si",
+        "Quién es Emi?",
+        "No me interesa"
+      ],
+      "text": "Para poder completar tu postulación para el puesto de Auxiliar de Almacén en la empresa Sigma, necesito hacerte unas preguntas para entender tu perfil. No te preocupes, son menos de 5 minutos ⏰\n\n ¿Comenzamos?"
+    },
+    "x": 440.4826965332031,
+    "y": -19.00310516357422
+  },
+  "more_info": {
+    "question": {
+      "connections": [
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "no_interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "No me interesa",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "goto": "interest_bye",
+          "isString": "",
+          "isDefault": true,
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "greaterThan": "",
+          "inArray": [],
+          "isNotString": "",
+          "lessThan": "",
+          "notInArray": [],
+          "setContext": {},
+          "nlp": {}
+        }
+      ],
+      "exactMatch": false,
+      "index": "more_info",
+      "quickReplies": [
+        "Me interesa",
+        "No me interesa"
+      ],
+      "text": "Claro! Te puedo contar más 😊\n\nSomos una compañía global dedicada a ofrecer los alimentos favoritos de las comunidades. Con presencia en 18 países, ofrecemos productos de calidad en diversas categorías y precios."
+    },
+    "x": 482.92529296875,
+    "y": 1118.0960693359375
+  },
+  "no_interest": {
+    "question": {
+      "connections": [],
+      "immediateNext": true,
+      "index": "no_interest",
+      "text": "Entiendo. No hay problema! Si en algún momento cambias de opinión me puedes esrcibir nuevamente. Adiós!"
+    },
+    "x": 1007.7255249023438,
+    "y": 970.44677734375
+  },
+  "quienEsEmi": {
+    "question": {
+      "connections": [
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "sosUnRobot",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "Eres un robot?",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": true,
+          "isNotString": null,
+          "isString": null,
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "no_interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "No me interesa",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        }
+      ],
+      "index": "quienEsEmi",
+      "quickReplies": [
+        "Ok, empecemos!",
+        "Eres un robot?",
+        "No me interesa"
+      ],
+      "text": "Soy un asistente virtual e intentaré ayudarte cada vez que te postules a un puesto de trabajo. La conversación conmigo no reemplaza una entrevista en persona, sino que mi objetivo es que tu perfil sea analizado y tomado en cuenta para este puesto y que puedas tener una oportunidad justa de conseguirlo!"
+    },
+    "x": 440.6365661621094,
+    "y": 268.8466491699219
+  },
+  "sosUnRobot": {
+    "question": {
+      "connections": [
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": true,
+          "isNotString": null,
+          "isString": null,
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        },
+        {
+          "answers": {},
+          "containsAny": [],
+          "context": {},
+          "goto": "no_interest",
+          "greaterThan": null,
+          "inArray": [],
+          "isDefault": false,
+          "isNotString": null,
+          "isString": "No me interesa",
+          "lessThan": null,
+          "nlp": {},
+          "notInArray": [],
+          "setContext": {}
+        }
+      ],
+      "errorMessageNotMatch": "Creo que no te he entendido 🤔... Intenta con las opciones que te doy",
+      "exactMatch": true,
+      "index": "sosUnRobot",
+      "quickReplies": [
+        "Ok, empecemos!",
+        "No me interesa"
+      ],
+      "text": "Sí! 🤖 Intentaré entender lo que me dices con todo mi esfuerzo, pero no siempre lo logro 😕 Con un poco de paciencia vamos a poder completar tu aplicación rápidamente 😄"
+    },
+    "x": 457.6255187988281,
+    "y": 525.7767333984375
+  },
+  "interest_bye": {
+    "Type": "Choice",
+    "question": {
+      "errorMessageNotMatch": "",
+      "exactMatch": false,
+      "index": "interest_bye",
+      "connections": [],
+      "text": "Genial! 💪 Te tendré en cuenta para el puesto. Que tengas un gran día",
+      "immediateNext": true,
+      "isAudio": false,
+      "audioErrorMessage": "",
+      "quickReplies": [],
+      "setContextFromActions": []
+    },
+    "x": 478.9245300292969,
+    "y": 1334.6873779296875
+  }
+}
